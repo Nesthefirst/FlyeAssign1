@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<section class="py-3 py-md-5 py-xl-8">
+<style>
+.box5{
+display: flexbox;
+margin: 30px;
+padding: 30px;
+background: #FF3147 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 0.86;
+width: 300px;
+height: 400px;
+}
+#p{
+text-align: center;
+font: normal normal 500 20px/22px Cormorant SC;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#p1{
+text-align: center;
+text-wrap: wrap;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;}
+#btn{
+margin: 2vh;
+padding: 2px;
+color: #FF3147;
+background: #F4F4F4 0% 0% no-repeat padding-box;
+border: #F4F4F4;
+border-radius: 2px;
+opacity: 1;
+}
+html, body { height: 100%; margin: 0; }
+#para{
+  margin-left: 25%;
+  margin-right: 25%;
+  background:transparent url(../FlyeAssign1/assets/Quotemarks-left.svg) 0% 0% no-repeat padding-box;;
+  text-align: center;
+  font:normal normal normal 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.slider, .slider .imgs {
+  width: 800px;
+  height: 100%;
+  scale: 0.9;
+  max-height: 600px;
+  position: relative;
+
+}
+#section3-Bh{
+margin-left: 30%;
+margin-right: 20% ;
+display: inline-flex;
+padding: auto;
+align-content: center;
+text-wrap: nowrap;
+text-align: center;
+font: normal normal bold 600 90%/130% Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;}
+.slider {
+width: 100%;
+height: 400%;
+}
+
+.slider .imgs {
+  padding: 120px 10px;
+  margin: 20px;
+  max-width: 400%;
+  display: flex;
+  overflow: visible;
+}
+
+.slider .img {
+  margin-top: 100px;
+  margin-right: 20px;
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  left: 100%;
+  animation: .6s cubic-bezier(0.6, 0.6, 0.6, 1.8) 0s left;
+  animation-fill-mode: forwards;
+  background-size: cover ;
+  background-position: 0% ;
+}
+
+.slider .img:nth-of-type(1) 
+.slider .img:nth-of-type(2) 
+.slider .img:nth-of-type(3)
+
+
+.slider .img div {
+  padding: 7px 2px;
+  background: rgba(0, 0, 0, .8);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  color: #f0f0f0;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.dots {
+  position: relative;
+  margin: 200px;
+  justify-self: start;
+  bottom: 18px;
+  left: 0;
+  display: flex;
+  justify-self: flex-start;
+  justify-content: start;
+  width: 100%;
+}
+#section3-Rh{
+top: 2549px;
+left: 874px;
+width: 172px;
+padding-top: 100px;
+text-align: center;
+display: inline;
+font: normal normal 600 2.4vh/2.6vh Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+opacity: 1;
+}
+.dot {
+justify-self: start;
+position:static;
+top: 1860px;
+width: 40px;
+height: 40px;
+background: transparent url('assets/3.svg') 10% 12% no-repeat padding-box;
+opacity: 1;
+}
+.col-container {
+  display: table;
+  width: 100%; 
+}
+.active-dot {
+top: 1860px;
+width: 50px;
+height: 30px;
+background: transparent url('assets/1.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+@keyframes leftNext {
+  from { left: 100%; }
+  to { left: 50%; }
+}
+
+@keyframes leftCurr {
+  from { left: 50%; }
+  to { left: 0%; }
+}
+
+@keyframes rightNext {
+  from { left: 0%; }
+  to { left: -50%; }
+}
+
+@keyframes rightCurr {
+  from { left: -50%; }
+  to { left: 150%; }
+}
+.con{
+margin-left: 30vh;
+text-align: left;
+font: normal normal bold 80%/90% Poppins;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+}
+.credit{
+text-align: left;
+font: normal normal 300 80%/99% Poppins;
+letter-spacing: 0px;
+color: #808080;
+opacity: 1;
+}
+h1{ 
+    top: 24%;
+    left: 376px;
+    width: 60%;
+    height: 30px;
+    padding-top: 10%;
+    padding-left: 40%;
+    padding: auto;
+    text-align: left;
+    font: normal normal 600 75%/110% Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1
+}
+h2 {
+overflow: hidden;
+
+top: 312px;
+left: 376px;
+width: 614px;
+height: 140;
+padding-top: 10%;
+padding-right: 40%;
+padding: auto;
+text-align: left;
+font: normal normal bold 200%/100% Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+div.scroll-container {
+  overflow: visible;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+    max-height: 500px ;
+    padding: 10px;
+}
+#h2-1{
+top: 100px;
+left: 30px;
+width: 156px;
+height: 24px;
+padding-top: 50px;
+text-align: left;
+font: normal normal 800 100%/120% Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+}
+#h2-2{
+top: 1101px;
+left: 373px;
+width: 442px;
+height: 110px;
+text-align: left;
+font: normal normal bold 150%/180% Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+#h2-3{top: 1114px;
+left: 960px;
+width: 584px;
+height: 83px;
+text-align: left;
+margin: 20px;
+font: normal normal normal 16%/30% Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;}
+.box{
+margin-right: 5px;
+padding: 5%;
+margin: 3px;
+align-self: end;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+margin-left: 50px;
+max-width: 80%;
+max-height: 40%;
+display: block;
+opacity: 1;
+transition: 100ms;
+}
+#b2 :hover{  color: #f0f0f0;
+  background-color: #fb3f52 !important;
+}
+#box2{
+margin: 5vh;
+padding: 5vh;
+max-height: 50vh;
+max-width: 30vh;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#box3 :hover{
+  transform: scale(1.1
+  );
+}
+.section4-Bh{
+text-align: left;
+font: normal normal medium 20px/80px Poppins ;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+#zb{
+align-self: center;
+text-align: center;
+font: normal normal 300 300%/65% Poppins;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+#zbb{
+display: block;
+padding: 3%;
+margin: 2vh;
+margin-bottom: 1vh;
+text-align: center;
+font: normal normal 300 75%/90% Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+#endtext{
+text-align: center;
+font: normal normal bold 45px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.btn-open-popup { 
+  align-self:baseline ; 
+  max-width: 30%;
+  max-height: 30%;
+  background: #fb3f52 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1; 
+  text-align: center;
+  font: normal normal 600 14px/26px Poppins;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 5px; 
+  margin: 20px;
+        } 
+  
+        .btn-open-popup:hover { 
+            background-color: #fa5151; 
+        } 
+  
+        .overlay-container { 
+            display: none; 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0, 0, 0, 0.6); 
+            justify-content: center; 
+            align-items: center; 
+            opacity: 0; 
+            transition: opacity 0.3s ease; 
+        } 
+  
+        .popup-box { 
+          background: #FFFFFF 0% 0% no-repeat padding-box;
+          border: 1px solid #F1F1F1;
+          border-radius: 5px;
+          opacity: 1;
+          padding: 40px;
+        } 
+  
+        .form-container { 
+            display: flex; 
+            flex-direction: column; 
+        } 
+  
+        .form-label { 
+            margin-bottom: 10px; 
+            font-size: 16px; 
+            color: #444; 
+            text-align: left; 
+        } 
+  
+        .form-input { 
+            padding: 10px; 
+            margin-bottom: 20px; 
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            font-size: 16px; 
+            width: 100%; 
+            box-sizing: border-box; 
+        } 
+  
+        .btn-submit, 
+        .btn-close-popup { 
+            padding: 12px 24px; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: background-color 0.3s ease, color 0.3s ease; 
+        } 
+  
+        .btn-submit { 
+          color: #fff;
+          background: #FF3366 0% 0% no-repeat padding-box;
+          opacity: 1;
+        } 
+  
+        .btn-close-popup { 
+            margin-top: 12px; 
+            background-color: #FF3366; 
+            color: #fff; 
+        } 
+  
+        .btn-submit:hover, 
+        .btn-close-popup:hover { 
+            background-color: #FF3366;
+        } 
+        @keyframes fadeInUp { 
+            from { 
+                opacity: 0; 
+                transform: translateY(20px); 
+            } 
+  
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            } 
+        } 
+        .overlay-container.show { 
+            display: flex; 
+            opacity: 1; 
+        } 
+</style>
+<div id="b5"  style="display: none;">
+  <div class="box5" style="object-fit: cover;" onmouseleave= "Dhover()"><center><img src="assets/icon.svg" ></center> 
+   <br>
+   <div id="p">WEB DEVELOPMENT</div>
+   <br>
+   <div id="p1">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</div>
+   <center><button id="btn" style="font: normal normal 600 14px/26px Poppins;" onclick="location.href='https://www.fylehq.com'">,READ MORE <img src="assets/arrow.svg" alt=""></button></center>
+  </div></div>
+<div class="container">
+    <div class="row">
+        <div class="col" style="max-width: 60%;align-self: left ; padding: box;margin: auto; min-width: 300px; text-wrap: balance;float: left;">
+            <div class="row">
+            <h1>award winning</h1>
+            </div>
+            <div class="row flex-nowrap" style="padding: 2px; margin: 30px;min-width: 200px;max-height: 150px; ">
+                <h2>Digital Marketing Agency
+                    <br clear="right">
+                </h2>
+            </div>
+            <div class="row" style="margin: auto; text-align: left;
+            font: normal normal normal 16px/30px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            overflow: visible;
+            padding: box;
+            margin: 20px;">
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum
+                <br>
+                
+            </div>
+            <div class="row">
+                <button class="btn-open-popup"onclick="togglePopup()"> CONTACT US</button>
+                <div id="popupOverlay" 
+                class="overlay-container"> 
+               <div class="popup-box"> 
+                   <h2>Talk to us </h2> 
+                   <form class="form-container" action="https://getform.io/f/bdryggzb" method="post"> 
+                    <label class="form-label" for="email"></label> 
+                       <input class="form-input"
+                              type="email" 
+                              placeholder="Work Email"
+                              id="email" 
+                              name="email" required> 
+                       <label class="form-label" 
+                              for="name"> 
+                            <input placeholder="First Name" id="first_name" maxlength="40" name="first_name" size="20" type="text" required />
+                            <input placeholder="Last Name" id="last_name" maxlength="80" name="last_name" size="20" type="text" required />
+                             <br>
+                            <label for="checkbox" style="text-align: left;letter-spacing: 0px;color: #616678;opacity: 0.9;"> <input type="checkbox" style="border: 2px solid#FF3366; border-radius: 3px;opacity: 1;">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                             <br> <button class="btn-submit" 
+                              type="submit"> 
+                              Submit 
+                         </button> 
+                   </form> 
+         
+                   <button class="btn-close-popup" 
+                           onclick="togglePopup()"> 
+                     Close 
+                     </button> 
+               </div> 
+              </div>
+            </div>
+        </div>
+        <BR CLEAR="right">
+        <div class="col " style="padding: auto; margin: auto;padding-inline-start: 0%;min-height: 200px ;min-width: 100px;max-width: 100%; max-height: 80%;float: right;">
+            <img src="assets/hero.png" class="img-float-right" style="right:auto ; max-width: 100% ; max-height: 90% ; padding: box ; margin: 20px;min-height: 500px ; min-width: 100px; float: right;"/>
+        </div>
+    
+    </div>
+</div>
+<br> <br>
+<div class="container" style="background: #FAFAFA 0% 0% no-repeat padding-box;">
+<span class="row">
+<div class="col" style="padding-top: 15vh;display: block;padding-bottom: 10vh;"><h id="h2-1">WHAT WE DO</h><br><h id="h2-2">Services provide for you </h></div><div class="col" style="padding-top: 20vh;display: block;"><h id="h2-3"><br></h>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</h></div></span>
+    <div id="twt" class="scroll-container" style="overflow: hidden;display: block;" >
+        <div class="slider">
+            <div class="imgs">
+              <div class="img" style="left: 0;">
+                 <div id="an1" onmouseover="hover('an1')"onmouseleave= "Dhover()"><img src="../FlyeAssign1/assets/1-2.png" ></div>
+              </div>
+              <div class="img">
+                <div id="an2" onmouseover="hover('an2')"onmouseleave= "Dhover()"><img src="../FlyeAssign1/assets/2-2.png" ></div>
+              </div>
+              <div class="img">
+                <div id="an3" onmouseover="hover('an3')"onmouseleave= "Dhover()"><img src="..//FlyeAssign1/assets/3-2.png"></div>
+              </div>
+            </div>
+            <br>
+            <div class="dots" ></div>
+          </div>
+      </div>
+    </div>
+    <div class="container" style="align-content: center;">
+        <br>
+        <span><h1 id="section3-Rh">WHY CHOOSE US</h1>
+          <h2 id="section3-Bh">Why We Are Best</h2>
+          <br>
+       </span>
+       <div class="row"> 
+        <div class="col" style="justify-content: flex-start;"><img src="../FlyeAssign1/assets/1-1.svg"style="scale: 0.7;padding: 2px;margin: 2px;"><br><b>Clarified Vision & Target</b><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</div>
+        <div class="col" style="justify-content: flex-start;"><img src="../FlyeAssign1/assets/2-1.svg"style="scale: 0.7;padding: 2px;margin: 2px;"><br><b>High Performance</b><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</div>
+        <div class="col" style="justify-content: flex-start;"><img src="../FlyeAssign1/assets/3-1.svg"style="scale: 0.7;padding: 2px;margin: 2px;"><br><b>High Performance</b><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</div>
+        <div class="col" style="justify-content: flex-start;"><img src="../FlyeAssign1/assets/4.svg" style="scale: 0.7;padding: 2px;margin: 2px;"><br><b>High Performance</b><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</div>
+      </div>
+      <br>
+      <br>
+    <span><h1 id="section3-Rh">Our project</h1>
+       <h2 id="section3-Bh">Why We Are Best</h2>
+       <br>
+    </span>
+    <br>
+    <div class="row">
+       <div class="col">
+        <div style="align-self: self-start;padding: 15px;">
+            <img id="switcher" src="../FlyeAssign1/assets/image.png" style="min-block-size: 500px
+            ; padding-left: 10%; align-self:start;margin-left: 10%;width: 100%;min-width: 60vh;">
+        </div>
+       </div>
+       <div class="col" id="b2">
+        <div class="box" onclick=SwitchImg1() >
+          <h ><b>Genderless Kei – Japan’s Hot</b></h>
+          <br><p>
+            Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of
+          </p>
+        </div>
+        <div class="box" onclick=SwitchImg2() >
+          <h><b>Genderless Kei – Japan’s Hot</b></h>
+          <p>
+            Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of
+          </p>
+        </div>
+        <div class="box" onclick=SwitchImg3() >
+          <b>Genderless Kei – Japan’s Hot</b></h>
+          <br><p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of
+          </p>
+        </div>
+       </div>
+       
+      </div>
+       </div>
+       <br>
+       <section style="background: #FAFAFA 0% 0% no-repeat padding-box;opacity: 1;">
+        <br>
+        <h1 id="section3-Rh">
+          Experts growths
+        </h1>
+        <h2 id="section3-Bh" style="margin-bottom: 10vh;">Our Company Growth</h2>
+        <div class="container">
+        <div class="row" style="display: inline-flex;" id="box3">
+          <div class="col" id="box2" style="align-items: center;">
+            <div class="row" style="padding: 2%;"><img src="../FlyeAssign1/assets/heart (2).svg" style="scale: 0.2; align-self: center;"></div><div class="row" id="zb"><center>199+</center></div>
+            <div id="zbb" class="row"><center>Staticfied Customers<center></div>
+            </div>
+              <div class="col" id="box2" style="align-items: center;">
+              <div class="row" style="padding: 2%;"><img src="../FlyeAssign1/assets/clock (3).svg" style="scale: 0.2; align-self: center;"></div><div class="row" id="zb"><center>1591+</center></div>
+              <div id="zbb" class="row"><center>Days Of Operation<center></div>
+              </div>
+              <div class="col" id="box2" style="align-items: center;">
+              <div class="row" style="padding: 2%;"><img src="../FlyeAssign1/assets/Path 4402.svg" style="scale: 0.2; align-self: center;"></div><div class="row" id="zb"><center>283+</center></div>
+              <div id="zbb" class="row"><center>Complete Project<center></div>
+              </div>
+              <div class="col" id="box2" style="align-items: center;">
+              <div class="row" style="padding: 2%;"><img src="../FlyeAssign1/assets/Path 4406.svg" style="scale: 0.2; align-self: center;"></div><div class="row" id="zb"><center>75+</center></div>
+              <div id="zbb" class="row"><center>Win Awards <center></div>
+              </div>
+        </div>
+      </div>
+       </section>
+       <section style=" no-repeat padding-box;">
+        <h id="section3-Rh" style="padding: 1vh;" >
+           <center>client's feedback </center>
+        </h>
+        <div id="endtext">people say's about us ! <br>
+        <br>
+        </div>
+        <div id="para">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</div>
+        <br>
+        <span style="display: inline;margin-left: 15%;"><h class="con">JANNAT TUMPA</h>
+        <h class="credit">- COO, AMERIMAR ENTERPRISES, INC.</h></span>
+       </section>
+      </div>
+    </div>
+    
+    
+    </div>
+</div>
+
+<br>
+<footer style="background: transparent url('../FlyeAssign1/assets/NoPath\ -\ Copy.svg') 0% 0% no-repeat padding-box;
+opacity: 0.81;">
+<div style="padding: 9dvh;">
+<img src="../FlyeAssign1/assets/Group 500.png " alt="">
+</div>
+</footer>
+  </section>
+
+  <script src="../FlyeAssign1/java.js">
+  </script>
